@@ -58,7 +58,7 @@ class EmojiGame extends Component {
   clickEmoji = id => {
     const {emojisList} = this.props
     const {clickedEmojisList} = this.state
-    const isEmojiPresent = clickedEmojisList.include(id)
+    const isEmojiPresent = clickedEmojisList.includes(id)
     const clickedEmojisLength = clickedEmojisList.length
 
     if (isEmojiPresent) {
