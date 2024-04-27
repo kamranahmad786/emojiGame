@@ -2,13 +2,13 @@
 .emoji-item {
   width: 32%;
   list-style-type: none;
-  margin-top: 8px;
+  margin-top: 10px;
   margin-bottom: 8px;
 }
 
 @media screen and (min-width: 992px) {
   .emoji-item {
-    width: 24px;
+    width: 25px;
   }
 }
 
