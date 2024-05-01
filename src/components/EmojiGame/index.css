@@ -2,7 +2,7 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom right, #9796f0, 0.5%, #fbc7d4 155%);
+  background-image: linear-gradient(to bottom right, #9796f0, 1%, #fbc7d4 155%);
   min-height: 100vh;
 }
 .emoji-game-body {
@@ -18,6 +18,6 @@
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  padding: 1px;
+  padding: 3px;
   max-width: 1000px;
 }
